@@ -1,0 +1,669 @@
+body{
+	/*background: #f2f2f2;
+	color: #3b3f45;*/
+	background: url("../img/rest2.jpg");	
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center right;
+}
+body.demo{
+	min-height: auto;
+	height: auto;
+}
+.fs-form-wrap{
+	color: #3b3f45;	
+}
+.text-center{
+	text-align: center;
+}
+.fs-nav-dots button:hover::before, .fs-nav-dots button.fs-dot-current::before {
+    background: #f8981d;
+}
+.fs-fields > li label.fs-field-label{
+	font-weight: normal;
+	display: block;
+}
+.fs-fields > li .fs-radio-custom label.radio-exp{
+	padding-top: 0;
+	text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #cecece;
+    padding-top: 47px;
+}
+.fs-fields > li .fs-radio-custom label.radio-exp.rad-line{
+	padding-top: 38px;
+}
+.fs-fields > li .fs-radio-custom span{
+	max-width: 140px;
+}
+.fs-fields .fs-radio-custom input[type="radio"]:checked + label, .fs-form-overview .fs-fields .fs-radio-custom input[type="radio"]:checked + label{
+	background: #f8981d;
+	color: #fff;
+}
+.header-title {
+	text-transform: uppercase;
+	font-size: 12px;
+    font-weight: 600;
+    color: #f3ca95;
+    margin-bottom: 25px;
+}
+.fs-fields input{
+	background: #f2f2f2 !important;
+	color: #f8981d;
+	font-weight: normal;
+}
+.fs-form div.cs-select.cs-skin-boxes {
+	display: inline-block;
+}
+.cs-skin-boxes > span {
+	background: #f8981d !important;
+}
+.fs-form-overview .fs-fields > li .fs-radio-custom label.radio-exp {
+	width: 80px;
+    height: 80px;
+    padding-top: 31px;
+}
+.fs-form-overview .fs-fields > li .fs-radio-custom label.radio-exp.rad-line{
+	padding-top: 23px
+}
+.fs-form-overview .fs-fields > li .fs-radio-custom span {
+	    max-width: 100px;
+}
+.fs-form-overview {
+	padding:2.5em 20% 6em;
+}
+.cs-skin-boxes .cs-options li{
+	height: 69px;
+}
+.fs-fields textarea {
+	font-weight: normal;
+	font-size: 16px;
+	color: #f8981d;
+}
+.fs-form-overview div.cs-skin-boxes{
+	max-width: 130px;
+}
+.fs-form-overview{
+	background: rgb(249, 249, 249);
+}
+.fs-form-overview .fs-fields > li.ele50 {
+	width: 50%;
+	float: left;
+	padding:0 10px 2em 10px; 
+}
+.fs-numbers{
+	width: 3em;
+}
+.fs-progress {
+	height: 4px;
+    background: #f8981d;
+}
+.fs-form-overview .fs-fields textarea:focus {
+	background: rgb(245, 245, 245);
+}
+
+/* Second Feedback Form Design */
+.feedbackTwo .fs-title {
+	padding:10px 20px 20px;
+}
+.feedbackTwo .fs-form-full{
+	top:20px;
+}
+.feedbackTwo .fs-fields > li label.fs-field-label{
+    font-size: 22px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 45px;
+}
+.feedbackTwo .fs-form div.cs-select.cs-skin-boxes,.feedbackTwo .fs-fields textarea{
+	margin-top: 20px;
+}
+
+/* Third Feedback Form Design */
+body.design3{
+	/*background: #3b3f45;*/
+    color: #fff;
+}
+.design3 .header-title{
+	color: rgba(255,255,255,0.6);
+}
+.design3 .feedbackTwo .fs-fields > li label.fs-field-label{
+	color: #ccc;
+	margin-bottom: 15px;
+}
+.design3 .fs-fields > li .fs-radio-custom label.radio-exp {
+    height: 76px;
+    border-radius: 10px;
+    background: #cecece;
+    padding-top: 40px;
+}
+.design3 .fs-fields input{
+	background: #3b3f45 !important;
+	font-size: 22px;
+	color: #ffffff;
+}
+.design3 .fs-nav-dots button:hover::before, .design3 .fs-nav-dots button.fs-dot-current::before {
+	background: #fffed8;
+}
+.design3 select{
+	font-size: 15px;
+    padding: 2px 15px;
+    width: 28%;
+    margin-right: 25px;
+}
+.design3 .fs-form-overview {
+    background: rgb(59, 63, 69);
+}
+.design3 .fs-form-overview .fs-fields > li .fs-radio-custom label.radio-exp {
+	height: 60px;
+	padding-top: 21px;
+}
+.design3 .fs-form-overview .fs-fields::before {
+	color: #fff;
+}
+.design3 .fs-fields .fs-radio-custom input[type="radio"]:checked + label, .fs-form-overview .fs-fields .fs-radio-custom input[type="radio"]:checked + label,
+.design3.design4 .fs-fields .fs-radio-custom input[type="radio"]:checked + label, .design4 .fs-form-overview .fs-fields .fs-radio-custom input[type="radio"]:checked + label {
+    background: #4c6920;
+    color: #4c6920;
+}
+.design3 .fs-progress {
+	background: #b0c47f;
+}
+.fs-title img{
+	height: 120px;
+}
+
+/* Design 4 */
+.design3.design4 .header-title{
+	color: #713f1a;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.design3.design4 .fs-form-overview .header-title{
+	border-bottom: 0;
+}
+.design3.design4 .feedbackTwo .fs-fields > li label.fs-field-label{
+	color: #713f1a;
+}
+.design3.design4 .fs-fields > li .boxed-block .fs-radio-custom label.radio-exp{
+	
+	font-size: 17px;
+}
+.design3.design4 .fs-nav-dots button:hover::before, .design3 .fs-nav-dots button.fs-dot-current::before {
+    background: #456711;
+}
+.design4 button.fs-submit, .design4 button.fs-continue {
+	border:1px solid #a24d10; 
+}
+.design3.design4 .fs-fields input {
+	background: transparent !important;
+	color: #3b3f45;
+}
+.design4 .fs-fields textarea {
+	color: #3b3f45;
+}
+.design3.design4 .fs-form-overview {
+    background:transparent;
+}
+.design4 .fs-form-overview .fs-fields::before{
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+.design4 .feedbackTwo .fs-fields > li label.fs-field-label {
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+.design4 .fs-form-overview .fs-fields > li .fs-radio-custom span{
+	font-size: 14px;
+}
+.design4 button.fs-submit:hover, .design4 button.fs-submit:focus, .design4 button.fs-continue:hover{
+	background: #a24d10;
+}
+
+@media only screen and (max-width: 520px) {
+    .fs-fields > li .fs-radio-custom span{
+    	width: 50%;
+    }
+}
+@media screen and (max-width: 769px){
+	button.fs-continue {
+		color: #fff;
+	}
+	button.fs-continue::before{
+		color: #4f6a25;
+    	font-size: 34px;
+	}
+	.design3.design4 .fs-fields > li .boxed-block .fs-radio-custom label.radio-exp{
+		font-size: 14px;
+	}
+	.fs-fields > li .fs-radio-custom label.radio-exp{
+		width: auto;
+	}
+}
+
+
+.design3.design4 .fs-fields > li .fs-radio-custom label.inLove, .option-detail .inLove{
+	background: url('../img/in_love1.png') no-repeat top center;
+}
+.design3.design4 .fs-fields > li .fs-radio-custom label.love, .option-detail .love{
+	background: url('../img/heart1.png') no-repeat top center;
+}
+.design3.design4 .fs-fields > li .fs-radio-custom label.heartLike, .option-detail .heartLike{
+	background: url('../img/heart_like1.png') no-repeat top center;
+}
+.design3.design4 .fs-fields > li .fs-radio-custom label.hurt, .option-detail .hurt{
+	background: url('../img/heart_bandage1.png') no-repeat top center;
+}
+.design3.design4 .fs-fields > li .fs-radio-custom label.brokenHeart, .option-detail .brokenHeart{
+	background: url('../img/broken_heart1.png') no-repeat top center;
+}
+.design3.design4 .fs-fields > li .boxed-block .fs-radio-custom label.radio-exp{
+	padding-top: 56px;
+    background-size: 50px 42px !important;
+    background-position: 23px !important;
+}
+
+.design3.design4 .fs-fields > li .fs-radio-custom span {
+    max-width: 16%;
+}
+
+.option-detail .iconDetails{
+	background-size: 20px !important;
+	padding-left: 30px;
+	background-position: 2px 1px;
+	font-size: 12px;
+    line-height: 21px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.option-detail {
+    padding: 12px 0;
+    border-radius: 5px;
+    max-width: 960px;    
+    margin: 0 auto;
+    /*width: 70%;*/
+}
+.option-detail-block{
+    /*margin: 130px -6em 20px;*/
+    margin-top: 130px;
+    /*background: rgba(255, 255, 255, 0.9);*/
+    /*background: #96ca44;*/
+}
+.fs-fields .fs-radio-custom input[type="radio"]{
+	height: 54%;
+}
+.design3.design4 .fs-fields > li .boxed-block .fs-radio-custom label.radio-exp{
+	height: 56px;
+}
+.design3.design4 .feedbackTwo .fs-fields > li label.fs-field-label{
+	font-size: 20px;
+}
+
+.design3.design4 .fs-fields .fs-radio-custom input[type="radio"]:checked + label.inLove, 
+.design4 .fs-form-overview .fs-fields .fs-radio-custom input[type="radio"]:checked + label.inLove{
+	background: url('../img/in_love_active1.png') no-repeat top center;
+}
+.design3.design4 .fs-fields .fs-radio-custom input[type="radio"]:checked + label.love, 
+.design4 .fs-form-overview .fs-fields .fs-radio-custom input[type="radio"]:checked + label.love{
+	background: url('../img/heart_active1.png') no-repeat top center;
+}
+.design3.design4 .fs-fields .fs-radio-custom input[type="radio"]:checked + label.heartLike, 
+.design4 .fs-form-overview .fs-fields .fs-radio-custom input[type="radio"]:checked + label.heartLike{
+	background: url('../img/heart_like_active1.png') no-repeat top center;
+}
+.design3.design4 .fs-fields .fs-radio-custom input[type="radio"]:checked + label.hurt, 
+.design4 .fs-form-overview .fs-fields .fs-radio-custom input[type="radio"]:checked + label.hurt{
+	background: url('../img/heart_bandage_active1.png') no-repeat top center;
+}
+.design3.design4 .fs-fields .fs-radio-custom input[type="radio"]:checked + label.brokenHeart, 
+.design4 .fs-form-overview .fs-fields .fs-radio-custom input[type="radio"]:checked + label.brokenHeart{
+	background: url('../img/broken_heart_active1.png') no-repeat top center;
+}
+.design3.design4 .fs-form-overview .fs-fields > li .fs-radio-custom label.radio-exp,
+.design3.design4 .fs-form-overview .fs-fields .fs-radio-custom input[type="radio"]:checked + label, 
+.design4 .fs-form-overview .fs-fields .fs-radio-custom input[type="radio"]:checked + label.heartLike{
+	background-size: auto 50px;
+}
+.design3.design4 .fs-form-overview .fs-fields > li .fs-radio-custom label.radio-exp {
+    padding-top: 60px;
+}
+
+.design4 .cs-skin-boxes > span::before{
+	padding-top: 10px;
+}
+.design4 .cs-skin-boxes > span {
+    background: #bf5a10 !important;
+    height: 45px;
+}
+.design4 .cs-skin-boxes > span::before{
+	box-shadow: 0 25px 0 #bf5a10, inset 0 -10px #bf5a10;
+}
+.design4 .fs-fields > li .fs-radio-custom span label{color:#a24d10;}
+.design4 .fs-form-overview .cs-skin-boxes > span{
+	width: 100px;
+    height: 40px;
+}
+.design4 .fs-numbers{display:none;}
+.design4 .boxed-block {
+	border: 1px solid #cdbcb0;
+    border-radius: 5px;
+    padding: 0 15px 10px;
+    margin-bottom: 20px;
+    /*background: rgba(255, 255, 255, 0.6);*/
+}
+.design4 .fs-form-overview .boxed-block{
+	border:0;
+}
+.cs-skin-boxes .cs-options ul{
+	width: 50%;
+    height: 50%;
+    top: 30%;
+    background: #171a1f;
+    border-radius: 5px;
+    left: 25%;
+    overflow-y: auto;
+}
+.cs-skin-boxes .cs-options{background: rgba(0,0,0,0.3);}
+.cs-skin-boxes .cs-options li{width:25%;}
+button.fs-continue{position: fixed;}
+.design4 .boxed-block.orderBox{
+	width: 500px;
+	margin: 20% auto 40px;
+	padding: 40px 20px;
+}
+input:focus{
+	outline: 0;
+}
+.orderBox a{
+    border: 1px solid #bf5a10;
+    padding: 0.6em 1.5em;
+    border-radius: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+    display: inline-block;
+    color: #232529;
+}
+.orderBox a:hover, .orderBox a:focus{
+	background: #bf5a10;
+	color: #fff;
+}
+.text-right{
+	text-align: right;
+}
+.socialIcons a{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 6px;
+    display: inline-block;
+}
+.socialIcons a:hover{
+	color: 	#456711;
+}
+.design4.design3 .fs-progress {
+    background: #f16c0c;
+}
+.design4.design3 .fs-form-overview ol{
+	display: none;
+}
+.hideForm{
+	display: none;
+}
+.design4.design3 .fs-form-overview .hideForm{
+	display: block;
+	text-align: center;
+}
+.design4.design3 .fs-form-overview .fs-submit{
+	float: none;
+    margin: 0 auto;
+}
+.design3.design4 .fs-form-overview {
+    position: relative;
+    top: 120px;
+}
+.design3.design4 .fs-form-overview .shareBtn{
+    padding: 10px;
+    border-radius: 2px;
+        color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.design3.design4 .fs-form-overview .shareBtn.fbBtn {
+	background: #395999;
+}
+.design3.design4 .fs-form-overview .shareBtn.twiiterBtn {
+	background: #17a2f3;
+}
+.design3.design4 .fs-form-overview .shareBtn i{
+	font-size: 24px;
+    margin-right: 9px;
+    line-height: 37px;
+    position: relative;
+    top: 4px;
+    padding-right: 9px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.fbBtn{
+	margin-right: 20px;
+}
+.fs-continue::after{
+	display: none;
+}
+button.fs-continue{
+	margin-bottom: 20px;
+}
+.fs-message-error{
+	bottom: 48px;
+	background: rgba(200, 19, 9, 0.75);
+	position: fixed;
+    text-align: center;
+    color: #fff;
+    padding: 5px 0;
+    z-index: 99999;
+}
+.hideMe{
+	display: none;
+}
+
+
+
+.disable-continue-btn{
+	display: none;
+}
+.firstget{
+	font-size: 14px;
+}
+
+.design3.design4.overview .option-detail-block{
+	display: none;
+}
+.cs-skin-boxes > span{
+	font-size: 13px;
+}
+
+.option-detail .radio-exp{
+	background-size: 39px 33px !important;
+    padding-top: 24px;
+    background-position: 2px 1px;
+    font-size: 12px;
+    line-height: 21px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.option-detail .radio-exp.brokenHeart{
+	background-position: 22px 0;
+}
+.option-detail label.radio-exp{
+	font-weight: normal;
+	margin-right: 0;
+	line-height: 14px;
+}
+.design3.design4 .fs-fields > li .option-detail .fs-radio-custom span{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.design3 .fs-fields > li .option-detail .fs-radio-custom label.radio-exp{
+	height: auto;
+	cursor: initial;
+}
+.option-detail .radio-exp.inLove{
+	background-position: 30px 0;
+}
+
+.fs-nav-dots{
+	display: none;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .design4 .boxed-block.orderBox {
+            margin: 180px auto 40px;
+    }
+    button.fs-continue{
+    	font-size: 0;
+    }
+    .feedbackTwo .fs-title {
+    	padding: 50px 20px 20px;
+	}
+	.cs-skin-boxes .cs-options span {
+     display: block; 
+	}
+	.cs-skin-boxes .cs-options li{
+		width: 100%;
+	}
+	.fs-form-overview{
+		padding: 2.5em 10px 6em;
+	}
+	.option-detail-block{
+		margin-top: 170px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.fs-fields > li .fs-radio-custom span{
+		display: block;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.hideMe{
+		display: block;
+	}
+	.design3.design4 .fs-form-overview .shareBtn.fbBtn{
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.design4 .boxed-block.orderBox{
+		width: 94%;
+		margin-left:3%; 
+		margin-right:3%; 
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.design3.design4 .fs-fields > li .fs-radio-custom span{
+		max-width: 20%;
+    	margin-right: 0;
+	}
+	.design3.design4 .feedbackTwo .fs-fields > li label.fs-field-label{
+		    font-size: 16px;
+	}
+	.design3.design4 .fs-fields > li .boxed-block .fs-radio-custom label.radio-exp{
+		background-size:39px 33px !important; 
+	}
+	.option-detail-block{
+	    /*margin: 130px -1em 20px;*/
+	    margin-top: 130px;
+	}
+	.design3.design4 .fs-fields > li .boxed-block .fs-radio-custom label.radio-exp{
+		background-position: 10px !important;
+	}
+	.option-detail {
+		/*width: 100%;*/
+	}
+}
+@media only screen and (max-width: 480px) {
+	.design3.design4 .fs-fields > li .boxed-block .fs-radio-custom label.radio-exp, .option-detail .radio-exp{
+		background-size:29px 26px !important; 
+	}
+
+	.design3.design4 .fs-fields > li .boxed-block .fs-radio-custom label.radio-exp{
+		background-position: 0 !important;
+	}
+	.design3 .fs-fields > li .fs-radio-custom label.radio-exp{
+		padding-top: 32px;
+	}
+}
+
+
+@media screen and (max-width: 52.5em){
+	.fs-form {
+    	padding: 0 1em 0 1em;
+	}
+	.fs-message-error{
+		bottom: 35px;
+	}
+}
+
+.boxed-top{
+	margin-top: 130px;
+}
+
+/* bottom buttons CSS */
+.js .fs-form-full .fs-fields > li {
+	margin-bottom: 50px;
+}
+.design4 button.fs-continue{
+	right: 0;
+}
+.design4 button.fs-continue, .design4 button.fs-back{
+	border: 0;
+    background: #bf5a10;
+    width: 50%;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    z-index: 999999;
+    color: #fff;
+}
+.firstget p{
+	color: #713f1a;
+}
+.fs-field-label{
+    color: #3b3f45;
+}
+.fs-form-overview{
+	height: auto;
+}
+button.fs-back{
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    padding:0.6em 1.5em;
+    font-weight: 700; 
+    margin: 0 40px 60px 0;
+    font-size: 1.25em;
+}
+button.fs-continue::before{
+	display: none !important;
+}
+@media screen and (max-width: 52.5em){
+	button.fs-continue {
+		bottom: 0;
+		padding: 0.6em 1.5em;
+	}
+	button.fs-back, button.fs-continue {
+		height: 35px;
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 1120px){
+	body{
+		background-size: auto 100%;
+	}
+}

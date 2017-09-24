@@ -1,0 +1,125 @@
+/* [Object] Modal
+ * =============================== */
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+      background: rgba(0, 0, 0, 0.84);
+  transition: opacity .25s ease;
+}
+
+.modal__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.modal-state {
+  display: none;
+}
+
+.modal-state:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+  z-index: 9999;    
+}
+
+.modal-state:checked + .modal .modal__inner {
+  top: 0;
+}
+
+.modal__inner {
+  transition: top .25s ease;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 65%;
+  margin: auto;
+  overflow: auto;
+background: rgba(76, 76, 76, 0.29);
+  border-radius: 5px;
+  padding: 0;
+  height: 65%;
+}
+
+.modal__close {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    width: 1.1em;
+    height: 1.1em;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.modal__close:after,
+.modal__close:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 2.5em;
+  background: #ccc;
+  display: block;
+  transform: rotate(45deg);
+  left: 0;
+  margin: -3px 0 0 -1px;
+  top: 0;
+}
+
+.modal__close:hover:after,
+.modal__close:hover:before {
+  background: #aaa;
+}
+
+.modal__close:before {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+	
+  .modal__inner {
+    width: 90%;
+    height: 90%;
+    box-sizing: border-box;
+  }
+}
+
+
+/* Other
+ * =============================== */
+
+
+.pop-up-btn {
+    width: 100%;
+    cursor: pointer;
+    background: #ECECEC;
+    display: inline-block;
+    padding: 0.9em 2.5em;
+    color: #1F1D1D;
+    font-size: 15px!important;
+    transition: all .4s ease-in;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.pop-up-btn:hover,
+.pop-up-btn:focus {
+  background: #F8981D;
+    transition: all .4s ease-in;
+	color:#fff;
+}
+
+.pop-up-btn:active {
+  background: #27ae60;
+  box-shadow: 0 1px 2px rgba(0,0,0, .2) inset;
+}

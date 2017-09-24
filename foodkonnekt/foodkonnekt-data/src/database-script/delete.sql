@@ -1,0 +1,36 @@
+DELETE from pickup_time;
+delete from item_modifiergroup_map;
+delete from item_modifiers_map;
+delete from item_taxes;
+delete from item_taxes;
+delete from taxrate;
+delete from ordertype;
+delete from opening_closing_time;
+delete from opening_closing_day;
+delete from paymentmode;
+delete from item_category;
+delete from item_modifiergroup_map ;
+delete from order_item_modifier;
+delete from order_item;
+delete from item ;
+delete from modifiergroup_modifiers;
+delete from modifiergroup ;
+
+delete from modifiers ;
+delete from pizzasize;
+delete from zone;
+delete from merchant_orders;
+delete from location;
+delete from merchant_subscription;
+
+delete from pizzasize_pizzatemplate ;
+delete from pizzatemplatesize;
+delete from pizzatemplate ;
+delete from category ;
+delete from pizzatoppingsize;
+delete from pizzatopping ;
+delete from order_r;
+delete from customer;
+delete from vouchar;
+delete from merchant ;
+delete from vendor;

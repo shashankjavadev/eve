@@ -1,0 +1,15 @@
+diff a/foodkonnekt/foodkonnekt-web/src/main/webapp/WEB-INF/pages/order.jsp b/foodkonnekt/foodkonnekt-web/src/main/webapp/WEB-INF/pages/order.jsp	(rejected hunks)
+@@ -1247,7 +1247,12 @@
+                         $(".secondDiv").css("display", "block");
+                         $(".thirdDiv").css("display", "none");
+                          $(".select-payment-method").css("display", "none");
+-                         $(".accordion-right").openSection(1);
++                         if(lengthOfMerchant > 1){
++                          	 
++                	    	 $(".accordion-right").openSection(2);
++                	    	 }else{
++                	   $(".accordion-right").openSection(1);
++                	    	 }
+                     }
+                 }
+             }else{

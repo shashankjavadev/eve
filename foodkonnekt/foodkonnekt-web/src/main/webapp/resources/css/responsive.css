@@ -1,0 +1,162 @@
+@media screen and (min-width:150px) and (max-width:768px){
+    .modal__close {
+        right: 0!important;
+        top: 10px!important;
+}
+    .modal-state:checked + .modal .modal__inner {
+    top: 5%!important;
+}
+}
+@media screen and (min-width:150px) and (max-width:530px){
+    .sd-options li a {
+        padding: 15px 10px;
+        font-size: 13px;
+}
+        div#cart-top {
+    width: 100%!important;
+    text-align: center!important;
+}
+    div#top-cart {
+    width: 100%!important;
+    text-align: center!important;
+}
+    select {
+        font-size: 13px;
+    }
+    [type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], [type="file"], textarea {
+        font-size: 13px;
+    }
+    .what-your-cart-says ul {
+    font-size: 13px!important;
+}
+    fieldset legend {
+    font-size: 14px;
+}
+    .confirm-your-order ul {
+    font-size: 13px!important;
+}
+    .confirm-your-order label {
+    margin-bottom: 15px;
+}
+    .price-incrementer {
+    width: 100%;
+}
+    .price-selecter-item {
+    width: 100%;
+}
+    
+}
+@media screen and (min-width:150px) and (max-width:450px){
+    .sd-options li {
+        width: 100%;
+        margin-bottom: 1px;
+}
+    .button-group:before {
+        display: none;
+}
+    .button-group:before {
+        display: none;
+}
+    .button-group button {
+        width: 100%;
+        margin-bottom: 1px!important;
+}
+    div#list-for-buttons ul li {
+    margin: 0!important;
+    width: 100%;
+}
+    .button {
+    margin-bottom: 10px;
+}
+    label.subscribers {
+    font-size: 12px;
+}
+    .button {
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+    .acc_head {
+    font-size: 11px;
+    padding-left: 32px!important;
+}
+    div#input-promo-code input {
+    padding: 6px;
+}
+    div#apply-promo-code-button a {
+    padding: 7px;
+}
+    .popup-model-content .pop-up-btn {
+        font-size: 11px!important;
+    }
+    div#sd-small-screen-full {
+    width: 100%!important;
+}
+    .your-cart-each-container ul li {
+    width: 100%!important;
+    line-height: 2;
+}
+    .modifiers-container ul {
+    border-bottom: 1px solid #F1F1F1;
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+    .total-price-in-cart {
+    width: 100%;
+}
+    .total-price-in-cart price {
+    font-size: 15px;
+}
+    .cart-heading h2 {
+    padding: 15px 7px;
+    font-size: 14px;
+}
+}
+@media screen and (min-width:150px) and (max-width:670px){
+.confirm-your-order-entire-list ul li:nth-child(2n) {
+    border-bottom: 1px solid #F1F1F1;
+}
+    .cart-speaks-out ul li:nth-child(2n) {
+    border-bottom: 1px solid #F1F1F1;
+}
+    #navside {
+    width: 465px!important;
+    padding: 0 20px!important;
+}
+}
+
+@media screen and (min-width:140px) and (max-width:768px){
+.pignose-popup.orange {
+    width: 100%!important;
+    left: 0!important;
+}
+.pignose-popup .item_content {
+    padding: 5px!important;
+}
+.item-qty-price-ul.heading-item-qty-price ul li span {
+    width: 100%;
+    font-size: 11px;
+    border-radius: 2px;
+    line-height: 23px;
+}
+.item-qty-price-ul ul li:first-child {
+    width: 30%!important;
+}
+.item-qty-price-ul ul li {
+    width: 30%!important;
+    font-size: 11px;
+}
+.foodkonnekt-order-detail {
+    width: 100%!important;
+    height: auto!important;
+    overflow-y: hidden!important;
+    overflow-x: hidden!important;
+}
+}
+@media screen and (min-width:769px) and (max-width:4400px){
+.pignose-popup.orange {
+    top: 10%!important;
+    position: fixed!important;
+}
+}
